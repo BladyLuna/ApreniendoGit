@@ -3,11 +3,20 @@
  Es un Sistema de control de versiones donde un pilar importante son los repositorios en el que se almacena los ficheros de un proyecto (fichero == es  como una coleccion ordenada).
  los repositorios pueden ser locales o remotos.
  los remotos tienen la peculiaridad de que otras personas puede hacer cambios en el proyecto, y que estos cambios sean visibles y sean sincronisados por otras personas.
-##Pilares fundamentales de GIT
+## Pilares fundamentales de GIT
 a. merge: consiste en combinar los cambios de una bifurcacion con otra rama
 (bifurcacion == punto donde se dividen a dos ramas o mas )
 b. push: consiste en empujar o subirlo nuestros cambios locales al servidor(nube).
 c. pull: de manera analoga o similar es la accion inversa(trae los cambios de nuestro repositorio remoto a el repositorio local).
+
+## Que es una rama?
+es una collecion de directorios y archivos del repositorio.
+apartir de esta rama puedes crear mas ramas. tambien puedes integrar los cambios hechos en un fichero se integren a la rama principal a esto se le llama merge(fucionar).
+## Para que sirven las ramas?
+en un entorno colaborativo las personas de tu equipo pueden estar trabanjando en diferentes partes del proyecto bugs, desarrollando , documentacion entonces todo eso se integrar a la rama principal.
+
+## Que representa la rama Master o Main?
+lo importante es que un repositorio necesita tener una rama principal independiente a su nombre.
 
 
 ##  INSTALACION DE GIT EN LINUX
@@ -67,6 +76,7 @@ si la rama tiene por delante un * indica que esta activa.
 (aun falta entender el 4 aaaaaa!)
 
 ## states y commit
+
 modifiel 
 staget
 commite
