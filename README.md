@@ -25,52 +25,6 @@ git config --global user.name "name"
 $ git config --global user.email "correo"
 ```
 
-2. para ver la configuracion de tu git
- git config --list
-
-3. para cambiar la configuracion de un repositorio(fichero) en concreto solo quitas el --global.
-cambias de usuario para hacer el respectivo push o pull.
-ejemplo:
-cd /direcion/de/repositorio
- git config user.name "name"
- git config user.email "correo"
-
-##  CONFIGURAR EL EDITOR DE CODIGO QUE ABRE GIT
-por defecto abres lo ficheros con vin pero puedes cambiarlos.
-para configurar un editor por defecto para que abra el editor de texto:
- para vs code:
- git config --global core.editor "code"
-
- para Atom,sublime text, nano. es muyy similar
-  git config --global core.editor "Sublime Text"
-
-    COMPROBAR LAS CONFIGURACIONES DE GIT
-ver las configuraciones
- git config --list
-
-##   COMO INICIALIZAR UN NUEVO PROYECTO
-     un repositorio solo puedes tener una rama activa a la ves ,pero puedes tener varias ramas principales
-1. creacion de una carpeta local
- git init name-proyecto
- cd nuevo-proyecto
-2.para iniciar el proyecto debes estar dentro la raiz de directorio eso quiere decir estar dentro de la carpeta y iniciarlo con el bash:
- git init
-
-3. crear una rama principal o carpeta para un repositorio y iniciarlo
-ejemplo:
-git init nameCarpeta --initial-branch=nameDirectorio
-para revisar las ramas de nuestro repositorio
- git branch
-si la rama tiene por delante un * indica que esta activa.
-
-4.cambiar nombre de la rama principal que usa por defecto
- git config --global init/defaultBrach nameRepositorio
-(aun falta entender el 4 aaaaaa!)
-
-##COMMIT y ADD
-
-
-
 
 
 
