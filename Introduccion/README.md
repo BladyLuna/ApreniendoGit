@@ -36,6 +36,7 @@ $ git config --global user.email "correo"
 <<<<<<< HEAD:Introduccion/README.md
 =======
 
+<<<<<<< HEAD:Introduccion/README.md
 >>>>>>> 4155d9f5eda44413f64fd72ba6f45a057a04fb19:README.md
 2. para ver la configuracion de tu git
  git config --list
@@ -87,6 +88,8 @@ commite
 
 
 
+=======
+>>>>>>> 2b0994f4365c02cafa09a07d67d1a64ae7574cbe:README.md
 
 
 
