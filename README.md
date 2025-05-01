@@ -18,8 +18,12 @@ git --version
 
 ##  CONFIGURAR NOMBRE Y CORREO
 1. configurar nombre y correo
-$ git config --global user.name "name"
+```bash 
+git config --global user.name "name"
+```
+```bash
 $ git config --global user.email "correo"
+```
 
 2. para ver la configuracion de tu git
  git config --list
