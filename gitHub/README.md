@@ -2,7 +2,7 @@
 1. git : es un sistema de control de versiones, local.
 2. github : servicio de alojamiento en la nube de codigo fuente basado en git, remoto.
 #### se complementan de forma local y remota.
-![git y github](/img/git-gitHub.png)
+![git y github](../img/git-gitHub.png)    
 
 ## Clonar un repositorio remoto
 basicamente es descargar o tener en tu compu el repositorio clonado.
