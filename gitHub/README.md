@@ -2,24 +2,26 @@
 1. git : es un sistema de control de versiones, local.
 2. github : servicio de alojamiento en la nube de codigo fuente basado en git, remoto.
 #### se complementan de forma local y remota.
-agregar imagen
+![git y github](/img/git-gitHub.png)
 
 ## Clonar un repositorio remoto
 basicamente es descargar o tener en tu compu el repositorio clonado.
 puedes usar https o shh del repositorio:
 
-bash```
+```bash
 git clone https://github.com/DiegoFigueroaS/SCESI-GitAndGithub-ConflictoTeam.git
 ```
 
 ## Como enlazar un repositorio local a un repositorio remoto?
 usamos el bash con dos parametros asi:
-bash```
+
+```bash
 git remote add <alias> <direccion>
 ```
 
 origin que viene por defecto como alias de github :
-bash``` 
+
+```bash
 git remote add origin https://github.com/DiegoFigueroaS/SCESI-GitAndGithub-ConflictoTeam.git
 ```
 
@@ -29,7 +31,8 @@ git remote add origin https://github.com/DiegoFigueroaS/SCESI-GitAndGithub-Confl
 # Push 
 ## escribiendo en el repositorio remoto
 git push es el comando que te permite enviar los cambios del repositorio local al repositorio remoto:
-bash```
+
+```bash
 git push <alias-del-remoto> <rama-deseada>
 ```
 
@@ -46,17 +49,17 @@ quiere decir que hay cambios en el remoto que no estan en el repo local.
 ## Creacion de una rama remota
 podemos crear nuestros cambios o commits y enviarlos a el remoto.
 1. puedes crear una rama remota con:
-bash``` 
+```bash
 git switch -c website
 ```
 
 2. empujar cambios a la rama remota
-bash``` 
+```bash
 git push origin website
 ```
 
 >[!IMPORTANT]
-> bash``` 
+> ```bash
 >git bash origin rama-no-existe
 >```
 >ten encuenta que si intentas enviar cambios a una no existente tendras errores.
