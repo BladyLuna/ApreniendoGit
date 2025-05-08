@@ -27,7 +27,14 @@ git remote add origin https://github.com/DiegoFigueroaS/SCESI-GitAndGithub-Confl
 
 >[!NOTE]
 >un repositorio local puede tener enlazado tantos repositorios remotos como queramos.
-
+## Comandos para sincronizar un repositorio remoto
+| Comando Git          | Descripción                          |
+|----------------------|--------------------------------------|
+| `git remote -v`      | ver todos los repositorios remotas enlazadas y urls.  |
+| `git fetch` | Descarga los cambios del repositorio remoto sin fusionarlos |
+| `git push origin main` | Sube cambios al repositorio remoto |
+| `git remote set-url origin https://github.com/usuario/nuevo-nombre-repo.git
+` | eliminar el enlace con el repositorio remoto |
 # Push 
 ## escribiendo en el repositorio remoto
 git push es el comando que te permite enviar los cambios del repositorio local al repositorio remoto:
@@ -63,5 +70,14 @@ git push origin website
 >git bash origin rama-no-existe
 >```
 >ten encuenta que si intentas enviar cambios a una no existente tendras errores.
+# pull 
+trae el repositorio remoto y lo fuciona con el repositorio local.
+```bash
+git pull <alias-del-remoto> <rama-deseada>
+#ejemplo
+git pull origin main
+```
+esto es para traer los cambios del remoto a nuestro local y fusionarlos.
 
-
+>[!NOTE]
+>muchas veces genera conflictos debes tener cuidado
