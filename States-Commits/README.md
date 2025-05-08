@@ -10,8 +10,8 @@
 
  Una ves confirmado los cambios se los empuja (push) al repositorio remoto para que las otras personas puedan hacer el (pull), de esta forma tener cambios sincronisados.
 
-##Como deshacer un archivo modificado?
-Acabas de modificar un ficher y ya no lo necesitas y quieres volver a la version original que tenias en tu directorio(archivo) entonces:
+## Como deshacer un archivo modificado?
+Acabas de modificar un fichero y ya no lo necesitas y quieres volver a la version original que tenias en tu directorio(archivo) entonces:
     Nota:Solo si has modificado un archivos o directorios que an sidocommiteado anteriormente
 significa que si has cambiado algo en el archivo que ya habia sido guardado (commit).
 restaurar el archivo html
@@ -68,13 +68,40 @@ es una de las piezas fundamentales para el entendimiento de git.
  git commit -m "mensaje de referencia" -m "otro mensaje de referencia"
 ```
 puede utilizar el parametro -m cuantas veces quiera.
-
 ### todos estos cambios se grabaron en tu repositorio local ,para revertirlo tienes que hacer nuevos commit.
+
+4. como ver nuestros commits?
+```bash
+git log 
+git log --oneline
+git log --oneline --graph
+git log | grep codigoCommit
+```
+5. renombrar el commit del titulo del commit pero solo del ultimo commit, pero lo cambia el idetificador
+```bash
+git commit --amend -m "hubo un cambio del mensaje de commit"
+```
+6. eliminar un commit
+para cuando el commit ya este subido al repositorio remoto
+```bash
+git revert HEAD
+```
+para cuando quieres retorceder a el commit HEAD~1 y no perder los cambios de los commit anteriores.Todos los cambios aparecerán como pendientes para realizar un commit.
+```bash 
+git reset --soft HEAD~1
+```
+7. para inorar un archivo y no hacerle commit:
+Debes crear un archivo ".gitignore" y agregar el nombre del archivo o carpeta es para no trakearlo(monitorearlo o preparlo)
+nota: el archivo trakeado nose puede ignorar 
 
 ## Que es un HEAD?
 Es una ubicacion de referencia del punto actual.
 solo puedes estar en un lugar y ese lugar es HEAD.
 hace referencia al repositorio en el que estas trabajando y el actual historial de cambios del repositorio.
+1. como ver donde estas?
+```bash
+git switch -
+```
 
 
 
