@@ -1,8 +1,8 @@
-        # States y Commits
-    ## Los 3 estados de git
+# States y Commits
+## Los 3 estados de git
 
 ### Modificado (modifiel): archivo creado eliminado o contiene cambios que no han sido confirmados.
-###preparado (staged): el archivo ha sido marcado como preparado y confirmado en el repositorio local.
+### preparado (staged): el archivo ha sido marcado como preparado y confirmado en el repositorio local.
 ### confirmado (commited): el archivo ha sido grabado en el repositorio local.
 
 ![Texto alternativo](ruta/a/la/imagen.png)
