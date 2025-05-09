@@ -1,5 +1,6 @@
-#       Mis Inicios Aprendiendo Git<img src="../img/logo-git.png" width="70" height="70" />
-##  Que es git?
+#       Mis Inicios Aprendiendo Git   
+
+##  Que es git?                                 <img src="../img/logo-git.png" width="150" height="150" />
  Es un Sistema de control de versiones donde un pilar importante son los repositorios en el que se almacena los ficheros de un proyecto (fichero == es  como una coleccion ordenada).
  los repositorios pueden ser locales o remotos.
  los remotos tienen la peculiaridad de que otras personas puede hacer cambios en el proyecto, y que estos cambios sean visibles y sean sincronisados por otras personas.
