@@ -5,7 +5,7 @@
 ### preparado (staged): el archivo ha sido marcado como preparado y confirmado en el repositorio local.
 ### confirmado (commited): el archivo ha sido grabado en el repositorio local.
 
-![Texto alternativo](ruta/a/la/imagen.png)
+![Texto alternativo](../img/3estados.png)
 
 
  Una ves confirmado los cambios se los empuja (push) al repositorio remoto para que las otras personas puedan hacer el (pull), de esta forma tener cambios sincronisados.
@@ -30,7 +30,7 @@ Si el archivo o el directorio no exitia anteriormente entonces es mejor borrarlo
 
 ## Como anadimos archivos al area de Stating?
 
-![Texto alternativo](ruta/a/la/imagen.png)
+![Texto alternativo](../img/areaStating.png)
 
 en este area podemos confirmarlos para grabarlo en el reposito local.
 Es el area temporal antes de subirlo al repositorio local.
@@ -51,7 +51,7 @@ Cada registro es como un checkPoint y muestra cada estado de todos los archivos 
 es una de las piezas fundamentales para el entendimiento de git.
 
 (agregar img)
-![Texto alternativo](ruta/a/la/imagen.png)
+![Texto alternativo](../img/memecommit.png)
 
 ## Como hacer un Commit?
 1. Para guardar cambios que tienes en el stating(indicado), abre el editor que configuro por defecto
