@@ -1,7 +1,7 @@
-#       Mis Inicios Aprendiendo Git
+#       Mis Inicios Aprendiendo Git<img src="../img/logo-git.png" width="70" height="70" />
 ##  Que es git?
  Es un Sistema de control de versiones donde un pilar importante son los repositorios en el que se almacena los ficheros de un proyecto (fichero == es  como una coleccion ordenada).
- los repositorios pueden ser locales o remotos.<img src="img/logo-gato.png" width="50" height="50" />
+ los repositorios pueden ser locales o remotos.
  los remotos tienen la peculiaridad de que otras personas puede hacer cambios en el proyecto, y que estos cambios sean visibles y sean sincronisados por otras personas.
 ## Pilares fundamentales de GIT
 a. merge: consiste en combinar los cambios de una bifurcacion con otra rama
