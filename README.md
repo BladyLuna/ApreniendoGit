@@ -4,9 +4,9 @@
 ### postulante:🚢
 ### bladimir luna corrales
 
-#### mis apuntes de git <img src="img/logo-gato.png" width="30" height="30" />
+#### mis apuntes de git <img src="img/logo-gato.png" width="50" height="50" />
 
-#### mis apuntes de gitHub <img src="img/logo-git.png" width="30" height="30" />
+#### mis apuntes de gitHub <img src="img/logo-git.png" width="50" height="50" />
 
 ## temario👀
 como aprender👀❓ te dejo el tip.
