@@ -18,6 +18,7 @@
 ## comandos no destructivos
 >[!IMPORTANT]
 > no cambian el historial del los commits
+
 | Comando | Descripción |
 |---|---|
 | `git revert HEAD~<numero_de_commit>` o <br> `git revert HEAD <id_commit>` | Revierte los cambios que un commit introdujo y crea uno nuevo con los cambios revertidos. |
