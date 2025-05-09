@@ -47,6 +47,10 @@ git branch
 git branch --show-current
 git branch --sort=committerdate
 ```
+6. renombrar rama 
+```bash
+git branch -m nuevoNombre
+```
 ## Como usar Checkount?
 ### se lo cambio por el switch
 vemos que git checkout cambia entre ramas y restaura el directorio del trabajo
