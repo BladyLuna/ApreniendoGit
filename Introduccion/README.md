@@ -1,7 +1,7 @@
 #       Mis Inicios Aprendiendo Git
 ##  Que es git?
  Es un Sistema de control de versiones donde un pilar importante son los repositorios en el que se almacena los ficheros de un proyecto (fichero == es  como una coleccion ordenada).
- los repositorios pueden ser locales o remotos.
+ los repositorios pueden ser locales o remotos.<img src="img/logo-gato.png" width="50" height="50" />
  los remotos tienen la peculiaridad de que otras personas puede hacer cambios en el proyecto, y que estos cambios sean visibles y sean sincronisados por otras personas.
 ## Pilares fundamentales de GIT
 a. merge: consiste en combinar los cambios de una bifurcacion con otra rama
@@ -10,6 +10,7 @@ b. push: consiste en empujar o subirlo nuestros cambios locales al servidor(nube
 c. pull: de manera analoga o similar es la accion inversa(trae los cambios de nuestro repositorio remoto a el repositorio local).
 
 ## Que es una rama?
+![univeros](../img/universo.png) 
 es una collecion de directorios y archivos del repositorio.
 apartir de esta rama puedes crear mas ramas. tambien puedes integrar los cambios hechos en un fichero se integren a la rama principal a esto se le llama merge(fucionar).
 ## Para que sirven las ramas?
@@ -94,17 +95,6 @@ si la rama tiene por delante un * indica que esta activa.
  git config --global init/defaultBrach nameRepositorio
 ```
 (aun falta entender el 4 aaaaaa!)
-
-## states y commit
-
-modifiel 
-staget
-commite
-
-
-
-=======
->>>>>>> 2b0994f4365c02cafa09a07d67d1a64ae7574cbe:README.md
 
 
 
