@@ -1,10 +1,12 @@
-![git y github](../img/logoScesi/png) 
-# Curso de git y GitHub
+![git y github](img/logoScesi.png) 
+# Curso de git y GitHub🚢
 
 ### postulante:🚢
 ### bladimir luna corrales
 
-#### mis apuntes de git y github 
+#### mis apuntes de git <img src="img/logo-gato.png" width="30" height="30" />
+
+#### mis apuntes de gitHub <img src="img/logo-git.png" width="30" height="30" />
 
 ## temario👀
 como aprender👀❓ te dejo el tip.
@@ -18,4 +20,3 @@ como aprender👀❓ te dejo el tip.
 > 7. buenas practicas
 > 8. Deshacer cambios
 > 9. hooks - alias y trucos de git 
-👀❓🚢
