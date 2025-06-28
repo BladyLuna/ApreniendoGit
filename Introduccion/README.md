@@ -95,7 +95,11 @@ si la rama tiene por delante un * indica que esta activa.
 ```bash
  git config --global init/defaultBrach nameRepositorio
 ```
-(aun falta entender el 4 aaaaaa!)
+5. agregar un repositorio remoto a tu repositorio local\
+```bash
+git remote add origin https://github.com/usuario/mi-repo.git
+```
+
 
 
 
