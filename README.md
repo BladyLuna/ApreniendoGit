@@ -3,6 +3,10 @@
 
 ### postulante:🚢
 ### bladimir luna corrales
+### Pasante 
+### HIGU
+
+###Facilona
 
 #### mis apuntes de git <img src="img/logo-gato.png" width="50" height="50" />
 
