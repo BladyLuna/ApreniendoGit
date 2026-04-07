@@ -118,8 +118,11 @@ ssh -T git@github.com
 ```bash
 git remote get-url origin
 ```
-
-
+8. para remover el la coneccion al repositorio remoto
+```bash
+git remote remove origin
+```
+luego haces tu push xd
 
 
 
