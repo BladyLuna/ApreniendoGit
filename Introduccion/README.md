@@ -108,7 +108,7 @@ git remote add origin git@github.com:BladyLuna/mi-proyecto.git
 6. para ver a que repositorio remoto esta apuntado
 
 ```bash
-ssh -T git@github.com
+git remove -v
 
 #origin  git@github.com:usuario/proyecto.git (fetch)
 #origin  git@github.com:usuario/proyecto.git (push)
