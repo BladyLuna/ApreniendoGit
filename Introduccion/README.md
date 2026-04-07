@@ -97,8 +97,18 @@ si la rama tiene por delante un * indica que esta activa.
 ```
 5. agregar un repositorio remoto a tu repositorio local\
 ```bash
-git remote add origin https://github.com/usuario/mi-repo.git
+
+6. para ver a que repositorio remoto esta apuntado
+```bash
+ssh -T git@github.com
+
+#origin  git@github.com:usuario/proyecto.git (fetch)
+#origin  git@github.com:usuario/proyecto.git (push)
 ```
+7. para ver solo la url al que apunta el repositorio remoto
+```bash
+git remote get-url origin
+``
 
 
 
