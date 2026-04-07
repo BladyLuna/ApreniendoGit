@@ -106,9 +106,10 @@ ssh -T git@github.com
 #origin  git@github.com:usuario/proyecto.git (push)
 ```
 7. para ver solo la url al que apunta el repositorio remoto
+
 ```bash
 git remote get-url origin
-``
+```
 
 
 
