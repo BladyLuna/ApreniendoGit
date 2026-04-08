@@ -92,3 +92,9 @@ git remote prune origin --dry-run
 ```bash
 git remote prune origin 
 ```
+
+## Estrategia de resolucion de conflictos
+- merge
+- rebase
+  estudiar
+  
