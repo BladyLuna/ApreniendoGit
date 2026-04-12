@@ -74,6 +74,8 @@ puede utilizar el parametro -m cuantas veces quiera.
 ```bash
 git log 
 git log --oneline
+# para algo mas detallado
+git log --name-only
 git log --oneline --graph
 git log | grep codigoCommit
 ```
