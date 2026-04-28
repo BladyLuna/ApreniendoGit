@@ -1,4 +1,4 @@
-![Scesi](img/logoScesi.png) 
+![Scesi](img/scesiImages.jpeg) 
 # Curso de git y GitHub🚢
 
 ### postulante:🚢
